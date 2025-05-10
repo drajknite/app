@@ -6,7 +6,7 @@
     "start": "concurrently  \"npm run json-server\" \"npm run express\" \"npm run dev\"",
     "dev": "vite --open --host --port 5000",
     "json-server": "json-server --watch db/db.json --port 3000",
-    "express": "nodemon api-server/index.js",
+    "express": "nodemon express-api-server/index.js",
     "server": "concurrently \"npm run json-server\" \"npm run express\"",
     "build": "vite build",
     "preview": "vite preview",
