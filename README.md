@@ -16,27 +16,6 @@ Start frontend and backend servers:
 npm start
 ```
 
-
-## 🛠️ Scripts 
-
-Start frontend server only:
-
-```bash
-npm run frontend
-```
-
-Start Backend server only:
-
-```bash
-npm run backend
-```
-
-Start JSON Server only:
-
-```bash
-npm run json-server
-```
-
 ---
 
 ## 🌐 Development URLs
@@ -109,6 +88,38 @@ npm run json-server
 ```
 
 ---
+
+## 🛠️ Scripts
+
+Start frontend server only:
+
+```bash
+npm run frontend
+```
+
+Start Backend server only:
+
+```bash
+npm run backend
+```
+
+Start JSON Server only:
+
+```bash
+npm run json-server
+```
+
+Format code:
+
+```bash
+npm run format
+```
+
+Lint code:
+
+```bash
+npm run lint
+```
 
 ## 🛠️ Features
 
