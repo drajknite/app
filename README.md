@@ -16,6 +16,9 @@ Start frontend and backend servers:
 npm start
 ```
 
+
+## 🛠️ Scripts 
+
 Start frontend server only:
 
 ```bash
