@@ -21,70 +21,52 @@ npm start
 ## 🌐 Development URLs
 
 - **Frontend**: [http://localhost:5001](http://localhost:5001)
-- **Backend**: [http://localhost:5002](http://localhost:5002)
-- **JSON Server**: [http://localhost:5003](http://localhost:5003)
+- **Backend**: [http://localhost:5000](http://localhost:5000)
+- **JSON Server**: [http://localhost:5002](http://localhost:5002)
 
 ## 🗄️ Database
 
 - ✅ **Database**: `app` (MongoDB)
 - ✅ **Collection**: `users`
-- 🚀 **API Server**: Runs at [http://localhost:5002](http://localhost:5002)
+- 🚀 **API Server**: Runs at [http://localhost:5000](http://localhost:5000)
 
 ### 🧪 Sample users
 
 ```json
 [
   {
-    "_id": "6820f80cbd834dde37bf93ee",
     "index": 0,
-    "isActive": false,
-    "balance": "$1,785.21",
-    "picture": "http://placehold.it/32x32",
-    "age": 22,
-    "name": "Lara Ortega",
-    "gender": "male",
-    "company": "UXMOX",
-    "email": "laraortega@uxmox.com",
-    "phone": "+1 (806) 579-3949",
-    "address": "921 Malta Street, Boykin, Ohio, 2474",
-    "about": "Adipisicing laborum tempor duis."
+    "email": "marian_haney@isologica.men",
+    "username": "marian89",
+    "name": "Marian Haney",
+    "firstName": "Elma",
+    "lastName": "Hughes",
+    "company": "Isologica",
+    "dob": "1989-08-18",
+    "address": "31 Powell Street, Stouchsburg, Iowa",
+    "about": "Eu sunt labore nisi pariatur reprehenderit. Ad aliquip sunt est consectetur pariatur magna enim.",
+    "password": "dolor",
+    "roles": ["admin", "guest"],
+    "createdAt": "2013-12-20T07:15:58.326Z",
+    "updatedAt": "2013-12-21T07:15:58.326Z"
   },
   {
-    "_id": "6820f80cbd834dde37bf93ef",
     "index": 1,
-    "isActive": true,
-    "balance": "$1,533.43",
-    "picture": "http://placehold.it/32x32",
-    "age": 35,
-    "name": "Harrison Horne",
-    "gender": "male",
-    "company": "COMVOY",
-    "email": "harrisonhorne@comvoy.com",
-    "phone": "+1 (975) 578-2320",
-    "address": "595 Noel Avenue, Why, Utah, 3756",
-    "about": "Ut proident laborum."
+    "email": "madge_schmidt@gaptec.school",
+    "username": "madge95",
+    "name": "Madge Schmidt",
+    "firstName": "Sharpe",
+    "lastName": "Taylor",
+    "company": "Gaptec",
+    "dob": "1995-02-07",
+    "address": "99 Bushwick Avenue, Seymour, Tennessee",
+    "about": "Irure excepteur sint consectetur aute dolore veniam. Incididunt sint enim duis commodo proident irure incididunt nisi exercitation nostrud velit pariatur ea.",
+    "password": "labore",
+    "roles": ["guest", "admin"],
+    "createdAt": "2014-02-01T04:16:57.453Z",
+    "updatedAt": "2014-02-02T04:16:57.453Z"
   }
 ]
-```
-
-### 📦 users schema
-
-```json
-{
-  _id: ObjectId,            // MongoDB ObjectId
-  index: Number,            // Integer
-  isActive: Boolean,        // true / false
-  balance: String,          // Currency as string (e.g., "$1,785.21")
-  picture: String,          // Image URL
-  age: Number,              // Integer
-  name: String,             // Full name
-  gender: String,           // "male" / "female"
-  company: String,          // Company name
-  email: String,            // Email address
-  phone: String,            // Phone number
-  address: String,          // Full address
-  about: String             // Description / bio
-}
 ```
 
 ---
@@ -120,6 +102,8 @@ Lint code:
 ```bash
 npm run lint
 ```
+
+---
 
 ## 🛠️ Features
 
